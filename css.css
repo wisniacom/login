@@ -1,0 +1,72 @@
+* {
+	margin: 0px;
+	padding: 0px; 
+	box-sizing: border-box;
+}
+
+a {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 14px;
+	line-height: 1.7;
+    text-decoration: none;
+}
+
+body, html {
+	height: 100%;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+  width: 100%;  
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #def;
+}
+
+.login {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+
+.wrap-input {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  margin-bottom: 10px;
+}
+
+.input {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000;
+  display: block;
+  width: 100%;
+  background: #aae;
+  height: 60px;
+  padding: 0 30px 0 20px;
+}
+
+.login-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.login-btn-click {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #fff;
+  text-transform: uppercase;
+  background: #22f;
+  width: 50%;
+  height: 50px;
+}
+
